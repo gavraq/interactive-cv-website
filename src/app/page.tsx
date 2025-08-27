@@ -262,7 +262,9 @@ export default function Home() {
               <div key={index}>
                 <h4 className="text-lg font-semibold text-slate-800">{edu.degree}</h4>
                 <p className="text-blue-600 font-medium">{edu.institution}</p>
-                <p className="text-slate-500 mb-3">{edu.location}</p>
+                <p className="text-slate-500 mb-3">
+                  {edu.duration} • {edu.location === "United Kingdom" ? "🇬🇧" : "🇿🇦"} {edu.location}
+                </p>
                 {edu.achievements && (
                   <div className="space-y-1">
                     {edu.achievements.map((achievement, achIndex) => (

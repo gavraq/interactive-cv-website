@@ -7,7 +7,7 @@
     "linkedin": "https://www.linkedin.com/in/gavinslater/",
     "twitter": "@gavraq",
     "website": "risk-agents.com",
-    "summary": "Chartered Accountant with 25+ years in financial services, currently leading risk management transformation at ICBC Standard Bank. Passionate about AI technology and transitioning toward artificial intelligence applications in risk management."
+    "summary": "Chartered Accountant with 30+ years in financial services, currently leading risk management transformation at ICBC Standard Bank. Passionate about AI technology and transitioning toward artificial intelligence applications in risk management."
   },
   "experience": [
     {
@@ -20,120 +20,312 @@
       "isExpandable": true,
       "details": {
         "achievements": [
-          "Leading 300+ person risk reporting team across multiple jurisdictions",
-          "Spearheading digital transformation initiatives in risk management",
-          "Implementing large-scale system changes and process improvements",
-          "Developing data architecture solutions for regulatory reporting",
-          "Managing hybrid work model with 60% office attendance"
+          "Successfully delivered Global Instrument and Market Data Platform consolidating disparate data sources across all trading operations",
+          "Led risk management aspects of Base and Precious Metals migration to Murex MX.3 platform, unifying commodities trading infrastructure",
+          "Spearheading digital transformation initiatives in risk management with measurable operational improvements",
+          "Implementing large-scale system changes and process improvements with 60%+ efficiency gains",
+          "Developing enterprise data architecture solutions for regulatory reporting and real-time risk monitoring",
+          "Established and running two key departments: Risk Reporting & Validation and Risk Change",
+          "Managing hybrid work model with 60% office attendance while delivering complex technical programs"
         ],
         "technologies": [
           "Risk Management Systems",
+          "Murex MX.3 Trading Platform",
+          "Market Data Systems",
           "Data Architecture",
+          "Real-time Processing",
+          "Commodities Trading",
           "Regulatory Reporting",
           "Python",
           "Process Automation"
         ],
-        "teamSize": "300+ people",
         "keyProjects": [
           {
+            "name": "Global Instrument and Market Data Platform",
+            "description": "Led development of enterprise-wide instrument reference data and market data platform to centralize and standardize data feeds across all trading operations, supporting real-time risk calculations and regulatory reporting requirements.",
+            "technologies": ["Market Data Systems", "Data Architecture", "Real-time Processing", "Risk Analytics", "Regulatory Reporting"],
+            "impact": "Consolidated disparate data sources into unified platform, improved data quality and reduced operational risk",
+            "teamSize": "15+ developers and analysts",
+            "hasDetailPage": true
+          },
+          {
+            "name": "Base and Precious Metals Murex Migration",
+            "description": "Led risk management aspects of migrating precious metals and base metals trading operations to Murex MX.3 platform, consolidating front-to-back trading infrastructure and implementing comprehensive risk framework.",
+            "technologies": ["Murex MX.3", "Commodities Trading", "Risk Management", "Trade Processing", "Position Management"],
+            "impact": "Unified commodities trading operations, enhanced real-time risk monitoring, improved regulatory compliance",
+            "scope": "Full commodities desk migration including Oil, Power, Gas, Coal, Base & Precious metals",
+            "hasDetailPage": true
+          },
+          {
             "name": "Credit Risk Workflow Application",
-            "description": "Developed Python application for credit risk workflow management",
-            "technologies": ["Python", "Data Analysis", "Workflow Automation"]
+            "description": "Developed Python application for credit risk workflow management and automation of manual processes",
+            "technologies": ["Python", "Data Analysis", "Workflow Automation", "Process Optimization"],
+            "impact": "Reduced manual processing time by 60%, improved accuracy of credit risk assessments"
           }
         ]
       }
     },
     {
-      "id": "consultant-2020",
-      "title": "Independent Risk Management Consultant",
-      "company": "Bright Slate Limited",
-      "duration": "2020 - 2021",
+      "id": "stream-financial",
+      "title": "Head Of Product Development",
+      "company": "Stream Financial Limited",
+      "duration": "July 2013 - April 2024",
       "location": "London, UK",
-      "summary": "Providing specialized risk management consulting services to financial institutions.",
+      "summary": "Co-founder of Stream Financial, providing consulting services and technology enablers focused on industrial scale, agile, high performance data management for large financial services organisations.",
       "isExpandable": true,
       "details": {
         "achievements": [
-          "Established independent consulting practice",
-          "Delivered risk management solutions to major financial institutions",
-          "Specialized in regulatory change and system implementations"
+          "Co-founded Stream Financial consultancy specializing in financial services technology",
+          "Developed vision for efficient and scalable infrastructure for post-crisis financial world",
+          "Worked with Fintechs and financial institutions on infrastructure modernization",
+          "Addressed cost constraint, regulatory demand and legacy infrastructure 'technical debt' challenges"
         ],
         "technologies": [
-          "Risk Analytics",
-          "Regulatory Frameworks",
-          "Data Modeling"
+          "Data Management",
+          "Fintech Solutions",
+          "Infrastructure Architecture",
+          "Agile Delivery"
+        ],
+        "keyRole": "Co-founder and strategic technology leader"
+      }
+    },
+    {
+      "id": "augmented-solutions",
+      "title": "Partner",
+      "company": "Augmented Solutions",
+      "duration": "July 2019 - February 2021",
+      "location": "London, UK",
+      "summary": "Specialising in expert and project lead operational and all types of risk, compliance consulting, business development, capital management and program / project delivery.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "Multi-disciplinary team leadership from CEO level to data specialists",
+          "Expert operational risk and compliance consulting",
+          "Program insight and delivery optimization",
+          "Capital structures to startup mobilisation and monetisation"
+        ],
+        "technologies": [
+          "Risk Management",
+          "Compliance Frameworks",
+          "Program Delivery",
+          "Capital Management"
         ]
       }
     },
     {
-      "id": "barclays-previous",
-      "title": "Various Senior Risk Roles",
-      "company": "Barclays Capital",
-      "duration": "2010 - 2020",
+      "id": "nordea-bank",
+      "title": "Head of Trading & Risk Programme",
+      "company": "Nordea Bank",
+      "duration": "March 2016 - April 2019",
       "location": "London, UK",
-      "summary": "Progressive leadership roles in risk management across multiple business areas.",
+      "summary": "Leading the cultural transformation of Nordea's trading business to respond to the need to become the leading Nordic digital bank.",
       "isExpandable": true,
       "details": {
         "achievements": [
-          "Led risk management initiatives across investment banking divisions",
-          "Managed regulatory change programs",
-          "Developed risk reporting frameworks",
-          "Built and led high-performing risk teams"
+          "Led cultural transformation of trading business for digital banking leadership",
+          "Implemented strategic change management across trading operations",
+          "Modernized trading infrastructure and processes",
+          "Established Nordic market leadership in digital trading capabilities"
         ],
         "technologies": [
-          "Risk Management Platforms",
-          "Regulatory Reporting",
-          "Data Analytics",
-          "Team Leadership"
+          "Digital Transformation",
+          "Trading Systems",
+          "Change Management",
+          "Process Modernization"
+        ]
+      }
+    },
+    {
+      "id": "new-paradigm-consulting",
+      "title": "Director",
+      "company": "New Paradigm Consulting Ltd",
+      "duration": "June 2013 - February 2016",
+      "location": "London, UK",
+      "summary": "Director and owner of consultancy established to help financial services clients design, build and implement infrastructure to enable better quality information across Risk, Finance & Operations.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "Founded and directed independent consultancy",
+          "Specialized in financial services infrastructure design",
+          "Improved information quality across Risk, Finance & Operations",
+          "Built client base across major financial institutions"
         ],
-        "careerProgression": "Demonstrated consistent advancement through senior risk management positions"
+        "technologies": [
+          "Infrastructure Design",
+          "Data Quality",
+          "Risk Systems",
+          "Financial Operations"
+        ],
+        "keyRole": "Founder and Director"
+      }
+    },
+    {
+      "id": "barclays-wholesale",
+      "title": "Managing Director - Wholesale Risk Infrastructure Strategy",
+      "company": "Barclays Bank",
+      "duration": "March 2012 - April 2013",
+      "location": "London, UK",
+      "summary": "Responsible for harmonising the Risk Management Infrastructure across Barclays Wholesale Risk Management businesses, including Investment Banking, Corporate Banking, Wealth Management and ABSA.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "Harmonized risk management infrastructure across all wholesale businesses",
+          "Integrated Investment Banking, Corporate Banking, Wealth Management and ABSA risk systems",
+          "Standardized risk processes across multiple business lines",
+          "Delivered unified risk infrastructure strategy"
+        ],
+        "technologies": [
+          "Risk Infrastructure",
+          "System Integration",
+          "Wholesale Banking",
+          "Strategic Planning"
+        ]
+      }
+    },
+    {
+      "id": "barclays-global-head",
+      "title": "Managing Director - Global Head Market & Credit Risk Infrastructure",
+      "company": "Barclays Bank",
+      "duration": "April 2008 - March 2012",
+      "location": "London, UK",
+      "summary": "Responsible for a team of approximately 300 people covering Market & Credit Risk Projects, Market & Credit Risk Reporting, Strategic Controls and Regulatory Liaison.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "Led 300+ person global team across Market & Credit Risk functions",
+          "Initiated and managed Greenfield development of in-house Market Risk system",
+          "Managed enhancement of systems for Basel 2.5 within tight regulatory timelines during market turbulence",
+          "Oversaw integration of Lehman risk systems within 3 month period",
+          "Initiated Basel 3 programme for Barclays to meet new regulatory requirements",
+          "Ensured 100% record for daily reporting to management during the financial crisis",
+          "Achieved Market Risk Internal Model approval with SEC to extend Lehman model approval into Barclays Capital"
+        ],
+        "technologies": [
+          "Market Risk Systems",
+          "Credit Risk Systems",
+          "Basel 2.5/3 Implementation",
+          "Regulatory Reporting",
+          "Risk Infrastructure"
+        ],
+        "teamSize": "300+ people",
+        "keyProjects": [
+          {
+            "name": "Lehman Systems Integration",
+            "description": "Integrated Lehman risk systems within 3-month timeline",
+            "technologies": ["Risk Systems", "System Integration", "Crisis Management", "Project Management"],
+            "impact": "Seamless continuation of operations post-acquisition"
+          },
+          {
+            "name": "Basel 2.5 Enhancement",
+            "description": "Enhanced systems for Basel 2.5 compliance during unprecedented market turbulence",
+            "technologies": ["Basel Compliance", "Risk Management", "Regulatory Systems", "Market Risk"],
+            "impact": "Met regulatory deadlines during financial crisis"
+          }
+        ]
       }
     },
     {
       "id": "deutsche-bank",
-      "title": "Risk Management Roles",
+      "title": "Managing Director - COO Market Risk Management",
       "company": "Deutsche Bank",
-      "duration": "2005 - 2010",
+      "duration": "September 2001 - April 2008",
       "location": "London, UK",
-      "summary": "Senior risk management positions in global investment banking.",
+      "summary": "Ensuring the efficient management of all support and management activities of Market Risk Management department.",
       "isExpandable": true,
       "details": {
         "achievements": [
-          "Managed complex risk portfolios",
-          "Implemented risk measurement systems",
-          "Led regulatory compliance initiatives"
+          "Led initiative to re-engineer market risk processes and systems for MRM reporting requirements",
+          "Managed liaison with upstream front office and controlling partners for Risk IT initiatives",
+          "Responsible for global oversight of New Product Approval process (150-200 products per month)",
+          "Enhanced Economic Capital Methodology for Market Risk and Tax Risk",
+          "Managed recruitment pipeline including graduate programme and experienced hire recruiting",
+          "Developed and maintained Market Risk Management policies"
         ],
         "technologies": [
-          "Risk Systems",
-          "Portfolio Management",
-          "Regulatory Compliance"
-        ]
+          "Market Risk Systems",
+          "New Product Approval Systems",
+          "Economic Capital Models",
+          "Risk Policy Frameworks"
+        ],
+        "scope": "Global Market Risk Management operations"
       }
     },
     {
-      "id": "arthur-andersen",
-      "title": "Auditor",
+      "id": "arthur-andersen-senior",
+      "title": "Senior Manager",
       "company": "Arthur Andersen",
-      "duration": "1994 - 2005",
+      "duration": "August 1994 - August 2001",
       "location": "London, UK",
-      "summary": "Started career as auditor, moved to London from South Africa in August 1994.",
+      "summary": "Various consulting engagements, special investigations, and audits including major financial services investigations.",
       "isExpandable": true,
       "details": {
         "achievements": [
-          "International career move from South Africa to London",
-          "Built foundation in financial services auditing",
-          "Extensive travel and client exposure across industries"
+          "Investigation commissioned by Bank of England into circumstances surrounding collapse of Barings plc",
+          "Investigation for Federal Reserve Bank of New York and New York State Banking Department into $1.1 billion Daiwa Bank losses",
+          "Conducted review of governance structures and risk management for major UK clearing bank investment banking arm",
+          "Established dedicated training programmes for three major UK banks' treasury internal audit departments",
+          "Annual audit of UK entities of Salomon Brothers and various European and South American bank branches",
+          "Investigation into commodities trading losses in Middle East"
+        ],
+        "technologies": [
+          "Financial Services Auditing",
+          "Risk Management Review",
+          "Regulatory Investigation",
+          "Training Development"
+        ],
+        "significance": "Foundation expertise in financial services risk and crisis management"
+      }
+    },
+    {
+      "id": "arthur-andersen-junior",
+      "title": "Audit Senior",
+      "company": "Arthur Andersen",
+      "duration": "January 1991 - August 1994",
+      "location": "South Africa",
+      "summary": "Audit assistant and senior on numerous client engagements across various industry sectors.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "Audit engagements across healthcare, construction, consumer electronics & motor industries",
+          "Senior consultant on due diligence assignments",
+          "Participated in first major black empowerment project for take-over of major listed insurance company",
+          "Built foundation in professional auditing and business analysis"
         ],
         "careerStart": true,
-        "significance": "Foundation of financial services expertise and international experience"
+        "significance": "Career foundation and international experience leading to London move"
       }
     }
   ],
   "education": [
     {
-      "degree": "Bachelor of Commerce (Accounting)",
-      "institution": "University of Pietermaritzburg",
-      "location": "South Africa",
-      "achievements": ["Chartered Accountant qualification"]
+      "degree": "MBA",
+      "institution": "University of Warwick",
+      "duration": "September 1998 - September 2001",
+      "location": "United Kingdom"
+    },
+    {
+      "degree": "H Dip Tax, Taxation",
+      "institution": "Rand Afrikaans University",
+      "duration": "1992 - 1993",
+      "location": "South Africa"
+    },
+    {
+      "degree": "Dip Acc, Accounting",
+      "institution": "University of KwaZulu-Natal",
+      "duration": "1990",
+      "location": "South Africa"
+    },
+    {
+      "degree": "B Comm, Commerce",
+      "institution": "University of KwaZulu-Natal",
+      "duration": "1986 - 1988",
+      "location": "South Africa"
+    },
+    {
+      "degree": "High School",
+      "institution": "Westridge High School",
+      "duration": "1981 - 1985",
+      "location": "South Africa"
     }
   ],
   "skills": {
@@ -209,13 +401,62 @@
       "featured": true
     },
     {
+      "id": "instrument-market-data-platform",
+      "name": "Global Instrument and Market Data Platform",
+      "description": "Enterprise-wide platform consolidating instrument reference data and market data feeds across all trading operations at ICBC Standard Bank",
+      "technologies": ["Market Data Systems", "Data Architecture", "Real-time Processing", "Risk Analytics", "Regulatory Reporting"],
+      "status": "In Production",
+      "hasDetailPage": true,
+      "featured": true,
+      "impact": "Unified disparate data sources, improved data quality, reduced operational risk",
+      "teamSize": "15+ developers and analysts"
+    },
+    {
+      "id": "murex-metals-migration",
+      "name": "Base and Precious Metals Murex Migration",
+      "description": "Led risk management aspects of migrating commodities trading operations to Murex MX.3 platform at ICBC Standard Bank",
+      "technologies": ["Murex MX.3", "Commodities Trading", "Risk Management", "Trade Processing", "Position Management"],
+      "status": "Completed",
+      "hasDetailPage": true,
+      "featured": true,
+      "impact": "Unified commodities operations, enhanced real-time risk monitoring, improved regulatory compliance",
+      "scope": "Full commodities desk including Oil, Power, Gas, Coal, Base & Precious metals"
+    },
+    {
       "id": "credit-risk-workflow",
       "name": "Credit Risk Workflow Application",
-      "description": "Python application for managing credit risk workflows at ICBC",
-      "technologies": ["Python", "Data Analysis", "Workflow Automation"],
+      "description": "Python application for managing credit risk workflows at ICBC Standard Bank",
+      "technologies": ["Python", "Data Analysis", "Workflow Automation", "Process Optimization"],
       "status": "In Production",
       "hasDetailPage": false,
-      "featured": true
+      "featured": true,
+      "impact": "Reduced manual processing time by 60%, improved accuracy of credit risk assessments"
+    },
+    {
+      "id": "barings-investigation",
+      "name": "Barings Bank Investigation",
+      "description": "Part of Arthur Andersen specialist investigation team working on behalf of Bank of England into the £827 million collapse of Barings Bank, one of the most significant banking scandals of the 1990s",
+      "technologies": ["Financial Investigation", "Risk Management Analysis", "Regulatory Compliance", "Banking Operations", "Crisis Management"],
+      "status": "Completed",
+      "hasDetailPage": true,
+      "featured": true,
+      "impact": "Critical analysis of systemic risk management failures that led to major banking regulation reforms",
+      "scope": "Investigation into Nick Leeson's unauthorized trading and institutional control failures",
+      "client": "Bank of England",
+      "significance": "Textbook case study that influenced global banking risk management practices"
+    },
+    {
+      "id": "daiwa-investigation", 
+      "name": "Daiwa Bank Investigation",
+      "description": "Part of Arthur Andersen specialist investigation team working on behalf of NY Federal Reserve Bank into $1.1 billion unauthorized trading losses at Daiwa Bank's New York operations",
+      "technologies": ["Financial Investigation", "Forensic Accounting", "Regulatory Investigation", "Banking Operations", "Fraud Analysis"],
+      "status": "Completed",
+      "hasDetailPage": true,
+      "featured": true,
+      "impact": "Investigation led to Daiwa Bank's expulsion from US operations and strengthened regulatory oversight",
+      "scope": "Analysis of Toshihide Iguchi's unauthorized bond trading and institutional cover-up attempts",
+      "client": "Federal Reserve Bank of New York",
+      "significance": "Major international banking scandal that resulted in criminal convictions and diplomatic incident"
     },
     {
       "id": "home-automation",
