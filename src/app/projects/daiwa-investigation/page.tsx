@@ -29,7 +29,7 @@ export default function DaiwaInvestigation() {
             <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">$1.1 Billion Loss</span>
           </div>
           <p className="text-xl text-slate-600 leading-relaxed">
-            As part of Arthur Andersen's specialist investigation team, I contributed to the forensic investigation 
+            As part of Arthur Andersen specialist investigation team, I contributed to the forensic investigation 
             commissioned by the Federal Reserve Bank of New York into one of the largest unauthorized trading losses in banking history.
           </p>
         </header>

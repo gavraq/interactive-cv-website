@@ -29,7 +29,7 @@ export default function BaringsInvestigation() {
             <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full">£827 Million Loss</span>
           </div>
           <p className="text-xl text-slate-600 leading-relaxed">
-            As part of Arthur Andersen's specialist investigation team, I contributed to the comprehensive investigation 
+            As part of Arthur Andersen specialist investigation team, I contributed to the comprehensive investigation 
             commissioned by the Bank of England into one of the most significant banking collapses of the 20th century.
           </p>
         </header>
@@ -45,7 +45,7 @@ export default function BaringsInvestigation() {
                 <li>• Barings Bank declared insolvent on February 26, 1995</li>
                 <li>• Total losses of £827 million ($1.3 billion)</li>
                 <li>• Caused by unauthorized trading by Nick Leeson in Singapore</li>
-                <li>• Losses were twice the bank's available trading capital</li>
+                <li>• Losses were twice the bank available trading capital</li>
                 <li>• 233-year-old merchant bank collapsed overnight</li>
               </ul>
             </div>
@@ -53,7 +53,7 @@ export default function BaringsInvestigation() {
             <div>
               <h3 className="text-lg font-medium text-slate-800 mb-3">Investigation Team</h3>
               <ul className="space-y-2 text-slate-600">
-                <li>• Bank of England's Board of Banking Supervision</li>
+                <li>• Bank of England Board of Banking Supervision</li>
                 <li>• Arthur Andersen specialist investigation unit</li>
                 <li>• JP Morgan derivatives and risk management experts</li>
                 <li>• Legal representatives and regulatory specialists</li>
