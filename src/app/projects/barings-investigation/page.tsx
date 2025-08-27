@@ -66,8 +66,8 @@ export default function BaringsInvestigation() {
             <h3 className="text-lg font-medium text-slate-800 mb-4">Key Findings</h3>
             <div className="bg-slate-50 rounded-lg p-6">
               <p className="text-slate-700 mb-4">
-                The investigation revealed "virtual total failure of risk management systems and controls, 
-                and managerial confusion" within the Barings Group. Critical discoveries included:
+                The investigation revealed virtual total failure of risk management systems and controls, 
+                and managerial confusion within the Barings Group. Critical discoveries included:
               </p>
               <ul className="space-y-2 text-slate-600">
                 <li>• Over £200 million in unrecognized losses at end of December 1994</li>

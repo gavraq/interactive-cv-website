@@ -103,7 +103,7 @@ export default function DaiwaInvestigation() {
               <ul className="space-y-3 text-slate-600">
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></span>
-                  <span>Daiwa Bank expelled from all U.S. operations by February 1996</span>
+                  <span>Daiwa Bank expelled from all US operations by February 1996</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></span>
@@ -111,7 +111,7 @@ export default function DaiwaInvestigation() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></span>
-                  <span>International diplomatic incident between U.S. and Japan</span>
+                  <span>International diplomatic incident between US and Japan</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></span>
@@ -133,7 +133,7 @@ export default function DaiwaInvestigation() {
               </div>
               <h3 className="font-semibold text-slate-800 mb-2">Regulatory Strengthening</h3>
               <p className="text-slate-600 text-sm">
-                Enhanced Federal Reserve oversight and reporting requirements for foreign banks operating in the U.S.
+                Enhanced Federal Reserve oversight and reporting requirements for foreign banks operating in the US.
               </p>
             </div>
             
