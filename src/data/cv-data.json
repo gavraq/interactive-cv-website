@@ -1,0 +1,230 @@
+{
+  "personalInfo": {
+    "name": "Gavin Slater",
+    "title": "Risk Management Leader & AI Enthusiast",
+    "location": "Esher, Surrey, United Kingdom",
+    "email": "gavin@slaters.uk.com",
+    "linkedin": "https://www.linkedin.com/in/gavinslater/",
+    "twitter": "@gavraq",
+    "website": "risk-agents.com",
+    "summary": "Chartered Accountant with 25+ years in financial services, currently leading risk management transformation at ICBC Standard Bank. Passionate about AI technology and transitioning toward artificial intelligence applications in risk management."
+  },
+  "experience": [
+    {
+      "id": "icbc-2021",
+      "title": "Head of Risk Infrastructure",
+      "company": "ICBC Standard Bank (via Bright Slate Limited)",
+      "duration": "February 2021 - Present",
+      "location": "London, UK",
+      "summary": "Leading Risk Reporting team and Risk Change initiatives, implementing large-scale system and process transformations.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "Leading 300+ person risk reporting team across multiple jurisdictions",
+          "Spearheading digital transformation initiatives in risk management",
+          "Implementing large-scale system changes and process improvements",
+          "Developing data architecture solutions for regulatory reporting",
+          "Managing hybrid work model with 60% office attendance"
+        ],
+        "technologies": [
+          "Risk Management Systems",
+          "Data Architecture",
+          "Regulatory Reporting",
+          "Python",
+          "Process Automation"
+        ],
+        "teamSize": "300+ people",
+        "keyProjects": [
+          {
+            "name": "Credit Risk Workflow Application",
+            "description": "Developed Python application for credit risk workflow management",
+            "technologies": ["Python", "Data Analysis", "Workflow Automation"]
+          }
+        ]
+      }
+    },
+    {
+      "id": "consultant-2020",
+      "title": "Independent Risk Management Consultant",
+      "company": "Bright Slate Limited",
+      "duration": "2020 - 2021",
+      "location": "London, UK",
+      "summary": "Providing specialized risk management consulting services to financial institutions.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "Established independent consulting practice",
+          "Delivered risk management solutions to major financial institutions",
+          "Specialized in regulatory change and system implementations"
+        ],
+        "technologies": [
+          "Risk Analytics",
+          "Regulatory Frameworks",
+          "Data Modeling"
+        ]
+      }
+    },
+    {
+      "id": "barclays-previous",
+      "title": "Various Senior Risk Roles",
+      "company": "Barclays Capital",
+      "duration": "2010 - 2020",
+      "location": "London, UK",
+      "summary": "Progressive leadership roles in risk management across multiple business areas.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "Led risk management initiatives across investment banking divisions",
+          "Managed regulatory change programs",
+          "Developed risk reporting frameworks",
+          "Built and led high-performing risk teams"
+        ],
+        "technologies": [
+          "Risk Management Platforms",
+          "Regulatory Reporting",
+          "Data Analytics",
+          "Team Leadership"
+        ],
+        "careerProgression": "Demonstrated consistent advancement through senior risk management positions"
+      }
+    },
+    {
+      "id": "deutsche-bank",
+      "title": "Risk Management Roles",
+      "company": "Deutsche Bank",
+      "duration": "2005 - 2010",
+      "location": "London, UK",
+      "summary": "Senior risk management positions in global investment banking.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "Managed complex risk portfolios",
+          "Implemented risk measurement systems",
+          "Led regulatory compliance initiatives"
+        ],
+        "technologies": [
+          "Risk Systems",
+          "Portfolio Management",
+          "Regulatory Compliance"
+        ]
+      }
+    },
+    {
+      "id": "arthur-andersen",
+      "title": "Auditor",
+      "company": "Arthur Andersen",
+      "duration": "1994 - 2005",
+      "location": "London, UK",
+      "summary": "Started career as auditor, moved to London from South Africa in August 1994.",
+      "isExpandable": true,
+      "details": {
+        "achievements": [
+          "International career move from South Africa to London",
+          "Built foundation in financial services auditing",
+          "Extensive travel and client exposure across industries"
+        ],
+        "careerStart": true,
+        "significance": "Foundation of financial services expertise and international experience"
+      }
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Commerce (Accounting)",
+      "institution": "University of Pietermaritzburg",
+      "location": "South Africa",
+      "achievements": ["Chartered Accountant qualification"]
+    }
+  ],
+  "skills": {
+    "leadership": [
+      "Team Leadership (300+ people)",
+      "Change Management",
+      "Strategic Planning",
+      "Cross-functional Collaboration"
+    ],
+    "technical": [
+      "Python Programming",
+      "Data Architecture",
+      "Risk Management Systems",
+      "Regulatory Reporting",
+      "Process Automation"
+    ],
+    "domain": [
+      "Risk Management",
+      "Financial Services",
+      "Regulatory Compliance",
+      "Digital Transformation",
+      "Audit & Assurance"
+    ],
+    "emerging": [
+      "Artificial Intelligence",
+      "Machine Learning Applications",
+      "Data Analytics",
+      "Home Automation",
+      "3D Printing"
+    ]
+  },
+  "interests": [
+    {
+      "id": "ai-technology",
+      "name": "Artificial Intelligence & Technology",
+      "description": "Passionate about AI developments, future career goal in AI field",
+      "isClickable": false
+    },
+    {
+      "id": "electronics-projects",
+      "name": "Electronics & Hardware Projects",
+      "description": "Built 8-bit computer following Ben Eater's tutorials, 3D printing enthusiast",
+      "isClickable": true,
+      "detailPage": "/projects/8bit-computer"
+    },
+    {
+      "id": "python-programming",
+      "name": "Python Programming",
+      "description": "Intermediate level, developed Credit Risk Workflow application",
+      "isClickable": false
+    },
+    {
+      "id": "quantified-self",
+      "name": "Quantified Self & Data Tracking",
+      "description": "Data-driven self-improvement using Apple Watch, sleep tracking, location data",
+      "isClickable": false
+    },
+    {
+      "id": "fitness-running",
+      "name": "Fitness & Running",
+      "description": "Regular Parkrun participant (~300 runs), weight management, health optimization",
+      "isClickable": false
+    }
+  ],
+  "projects": [
+    {
+      "id": "8bit-computer",
+      "name": "8-bit Computer Build",
+      "description": "Built a complete 8-bit computer on breadboard following Ben Eater's video series",
+      "technologies": ["Electronics", "Assembly Language", "Digital Logic", "Hardware Design"],
+      "status": "Completed",
+      "hasDetailPage": true,
+      "featured": true
+    },
+    {
+      "id": "credit-risk-workflow",
+      "name": "Credit Risk Workflow Application",
+      "description": "Python application for managing credit risk workflows at ICBC",
+      "technologies": ["Python", "Data Analysis", "Workflow Automation"],
+      "status": "In Production",
+      "hasDetailPage": false,
+      "featured": true
+    },
+    {
+      "id": "home-automation",
+      "name": "Home Assistant Integration",
+      "description": "Smart home automation using Home Assistant platform",
+      "technologies": ["Home Assistant", "IoT", "Automation"],
+      "status": "Ongoing",
+      "hasDetailPage": false,
+      "featured": false
+    }
+  ]
+}

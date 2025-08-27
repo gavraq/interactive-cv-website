@@ -1,0 +1,200 @@
+{
+  "project": {
+    "id": "8bit-computer",
+    "title": "8-bit Computer Build",
+    "subtitle": "A Journey into Digital Logic and Computer Architecture",
+    "description": "Following Ben Eater's comprehensive video series, I built a complete 8-bit computer from scratch using basic electronic components on breadboards. This project provided deep insights into how computers work at the fundamental level.",
+    "inspiration": {
+      "source": "Ben Eater's 8-bit Computer Video Series",
+      "url": "https://eater.net/8bit/",
+      "description": "An excellent educational series that breaks down computer architecture into understandable, buildable components."
+    },
+    "overview": {
+      "duration": "6 months (evenings and weekends)",
+      "complexity": "Intermediate to Advanced",
+      "cost": "Approximately £200-300 in components",
+      "learningOutcome": "Deep understanding of computer architecture, digital logic, and assembly programming"
+    },
+    "components": [
+      {
+        "name": "Clock Module",
+        "description": "Provides timing signals for the entire computer using 555 timers",
+        "technologies": ["555 Timer ICs", "Logic Gates", "Variable Frequency"],
+        "keyLearnings": ["Clock signal generation", "Timing in digital systems", "Astable multivibrators"]
+      },
+      {
+        "name": "Registers",
+        "description": "A and B registers for storing data during operations",
+        "technologies": ["74HC173 ICs", "LED Display", "Bus Architecture"],
+        "keyLearnings": ["Register operations", "Bus systems", "Data storage"]
+      },
+      {
+        "name": "Arithmetic Logic Unit (ALU)",
+        "description": "Performs addition and subtraction operations",
+        "technologies": ["74HC283 Adders", "74HC86 XOR Gates", "Binary Logic"],
+        "keyLearnings": ["Binary arithmetic", "Two's complement", "Logic operations"]
+      },
+      {
+        "name": "Memory (RAM)",
+        "description": "16 bytes of RAM for program and data storage",
+        "technologies": ["74HC189 RAM ICs", "Address Decoding", "Memory Management"],
+        "keyLearnings": ["Memory organization", "Address bus concepts", "Data persistence"]
+      },
+      {
+        "name": "Program Counter",
+        "description": "Keeps track of the current instruction being executed",
+        "technologies": ["74HC161 Counters", "Program Flow", "Jump Logic"],
+        "keyLearnings": ["Sequential execution", "Program flow control", "Addressing modes"]
+      },
+      {
+        "name": "Instruction Register & Decoder",
+        "description": "Decodes instructions and controls the computer's operation",
+        "technologies": ["EEPROMs", "Microcode", "Control Signals"],
+        "keyLearnings": ["Instruction decoding", "Microcode programming", "Control unit design"]
+      },
+      {
+        "name": "Output Display",
+        "description": "7-segment display showing program output",
+        "technologies": ["7-Segment Display", "Display Drivers", "Output Formatting"],
+        "keyLearnings": ["Output systems", "Human-computer interaction", "Display multiplexing"]
+      }
+    ],
+    "technicalDetails": {
+      "architecture": "8-bit Harvard Architecture",
+      "instructionSet": [
+        "LDA - Load Accumulator",
+        "ADD - Add to Accumulator", 
+        "SUB - Subtract from Accumulator",
+        "STA - Store Accumulator",
+        "LDI - Load Immediate",
+        "JMP - Jump",
+        "JC - Jump if Carry",
+        "JZ - Jump if Zero",
+        "OUT - Output",
+        "HLT - Halt"
+      ],
+      "memorySize": "16 bytes RAM",
+      "clockSpeed": "Variable (1 Hz to ~100 Hz)",
+      "busWidth": "8-bit data bus, 4-bit address bus"
+    },
+    "programmingExamples": [
+      {
+        "name": "Fibonacci Sequence",
+        "description": "Calculate and display Fibonacci numbers",
+        "assemblyCode": [
+          "LDI 1    ; Load 1 into accumulator",
+          "STA 14   ; Store in memory location 14",
+          "LDI 1    ; Load 1 into accumulator", 
+          "STA 15   ; Store in memory location 15",
+          "LDA 14   ; Load first number",
+          "ADD 15   ; Add second number",
+          "OUT      ; Display result",
+          "STA 14   ; Store new first number",
+          "LDA 15   ; Load old second number", 
+          "STA 15   ; Store as new second number",
+          "JMP 4    ; Jump back to addition"
+        ]
+      },
+      {
+        "name": "Counting Program", 
+        "description": "Simple program to count from 1 to 15",
+        "assemblyCode": [
+          "LDI 1    ; Load 1 into accumulator",
+          "OUT      ; Display current number",
+          "ADD 15   ; Add 1 (stored at location 15)",
+          "JC 6     ; Jump to halt if carry (overflow)",
+          "JMP 1    ; Jump back to output",
+          "HLT      ; Halt program"
+        ]
+      }
+    ],
+    "challenges": [
+      {
+        "challenge": "Breadboard Wiring Complexity",
+        "solution": "Careful planning and color-coded wiring scheme. Used multiple breadboards for organization.",
+        "learning": "The importance of systematic documentation and organization in hardware projects."
+      },
+      {
+        "challenge": "Timing Issues",
+        "solution": "Added debouncing circuits and proper clock signal conditioning.",
+        "learning": "Understanding the critical role of timing in digital systems."
+      },
+      {
+        "challenge": "Debugging Logic Errors",
+        "solution": "Built LED indicators for all major buses and control signals.",
+        "learning": "The value of observability in complex systems - essential for debugging."
+      },
+      {
+        "challenge": "Assembly Programming",
+        "solution": "Started with simple programs and gradually increased complexity.",
+        "learning": "Appreciation for modern programming languages and compilers."
+      }
+    ],
+    "learningOutcomes": [
+      "Deep understanding of computer architecture fundamentals",
+      "Hands-on experience with digital logic design",
+      "Assembly language programming skills",
+      "Appreciation for the complexity hidden in modern computers",
+      "Problem-solving skills for hardware debugging",
+      "Understanding of the relationship between hardware and software",
+      "Patience and persistence in complex technical projects"
+    ],
+    "futurePlans": [
+      "Add more complex instructions (multiplication, division)",
+      "Implement interrupt handling",
+      "Expand memory capacity",
+      "Add input capabilities (keyboard interface)",
+      "Create a simple operating system",
+      "Document the complete build process for others"
+    ],
+    "personalReflection": {
+      "motivation": "As someone passionate about technology and preparing for a career transition into AI, I wanted to understand computers at the most fundamental level. This project provided that understanding and demonstrated my commitment to hands-on learning.",
+      "timeManagement": "Built primarily on weekend mornings and some evenings, fitting around family time and work commitments. The project taught me valuable lessons about breaking complex tasks into manageable components.",
+      "skillsDeveloped": "Beyond the technical knowledge, this project developed my patience, systematic thinking, and ability to troubleshoot complex interconnected systems - skills directly applicable to my current risk management role and future AI career.",
+      "proudestMoment": "The first time the computer successfully executed a program and displayed the correct output. Seeing months of work come together in that moment was incredibly rewarding."
+    },
+    "connections": {
+      "currentRole": "The systematic thinking and complex system debugging skills developed in this project directly apply to my current role managing risk systems transformations at ICBC.",
+      "aiCareerGoals": "Understanding computer architecture at this level provides a solid foundation for understanding how AI models are executed and optimized at the hardware level.",
+      "continuousLearning": "This project exemplifies my approach to learning - diving deep into subjects that interest me and building practical understanding through hands-on work."
+    },
+    "resources": [
+      {
+        "name": "Ben Eater's 8-bit Computer Playlist",
+        "url": "https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU",
+        "description": "The complete video series that guided this build"
+      },
+      {
+        "name": "Ben Eater's Website",
+        "url": "https://eater.net/8bit/",
+        "description": "Additional resources, schematics, and parts lists"
+      },
+      {
+        "name": "Digital Logic Design Textbook",
+        "description": "Supplementary reading for understanding the theoretical foundations"
+      }
+    ],
+    "images": [
+      {
+        "filename": "complete-computer.jpg",
+        "alt": "Complete 8-bit computer setup on breadboards",
+        "description": "The finished computer showing all modules connected"
+      },
+      {
+        "filename": "alu-detail.jpg", 
+        "alt": "Close-up of the ALU module",
+        "description": "Detail of the arithmetic logic unit implementation"
+      },
+      {
+        "filename": "control-unit.jpg",
+        "alt": "Control unit and instruction decoder",
+        "description": "The heart of the computer - instruction decoding and control logic"
+      },
+      {
+        "filename": "program-running.jpg",
+        "alt": "Computer executing Fibonacci program",
+        "description": "The computer displaying output from a Fibonacci sequence program"
+      }
+    ]
+  }
+}
