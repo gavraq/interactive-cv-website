@@ -265,16 +265,6 @@ export default function Home() {
                 <p className="text-slate-500 mb-3">
                   {edu.duration} • {edu.location === "United Kingdom" ? "🇬🇧" : "🇿🇦"} {edu.location}
                 </p>
-                {edu.achievements && (
-                  <div className="space-y-1">
-                    {edu.achievements.map((achievement, achIndex) => (
-                      <div key={achIndex} className="flex items-center gap-2">
-                        <span className="w-2 h-2 bg-yellow-500 rounded-full flex-shrink-0"></span>
-                        <span className="text-slate-600">{achievement}</span>
-                      </div>
-                    ))}
-                  </div>
-                )}
               </div>
             ))}
           </div>
